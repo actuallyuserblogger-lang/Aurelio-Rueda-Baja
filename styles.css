@@ -1,0 +1,146 @@
+/* Estilos globales inspirados en un tono jardín */
+body {
+    font-family:'Courier New', Courier, monospace;
+    line-height: 1.6;
+    color: #48352d;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    background-color: #fafaf1;
+}
+
+/* Estilo para icono de perfil*/
+.zona-perfil {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.foto-redonda {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 3px solid #e3dba200;
+    outline: 3px solid #e3dba2;
+    object-fit: cover;
+}
+
+/* Títulos */
+h1 {
+    color: #456042;
+    text-align: center;
+    font-size: 2.6em;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color:   #607e57;
+    border-bottom: 2px solid #bbd4c0;
+    padding-bottom: 5px;
+    margin-top: 35px;
+}
+
+h3 {
+    color: #659660;
+    font-size: 1.3em;
+}
+
+/* Texto y Formato */
+p {
+    text-align: justify;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    color: #856c54;
+    -webkit-text-stroke: 0.50px; 
+}
+
+.texto-negrita {
+    font-weight: bold; /* Se seguirá distinguiendo perfectamente */
+    color: #674c3e;
+}
+
+mark {
+    background-color: #e3dba2;
+    color: #a25d0e;
+    padding: 2px 5px;
+    border-radius: 4px;
+    -webkit-text-stroke: 0.50px #a25d0e; 
+}
+
+code {
+    color: #145f87;
+    background-color: #e0f2fe;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: monospace;
+}
+
+kbd {
+    background-color: #f1f5f9;
+    border: 1px solid #cbd5e1;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 rgba(31, 29, 29, 0.1);
+    padding: 2px 5px;
+    font-family: monospace;
+    font-size: 0.9em;
+}
+
+/* Cajitas */
+.tarjeta-contacto {
+    background-color: #ffffff;
+    border-left: 5px solid #618e71;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 0 10px 10px 0;
+    box-shadow: 0 2px 5px rgba(85, 128, 74, 0.05);
+}
+
+.resaltado {
+    font-weight: bold;
+    color: #166534;
+}
+
+.inf {
+    color: #364641;
+    font-weight: normal;
+    -webkit-text-stroke: 0.50px; 
+}
+
+.pie-pagina {
+    font-size: 0.9em;
+    color: #6b7280;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Listas */
+ul, ol, dl {
+    background-color: #ffffff;
+    padding: 25px 40px;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    -webkit-text-stroke: 0.50px; 
+}
+
+dt {
+    font-weight: bold;
+    color: #9eb378;
+    margin-top: 12px;
+}
+
+dd {
+    margin-left: 20px;
+    color: #4b5563;
+}
+
+strong{
+    color: #80935c;
+}
+
+/* Líneas de separación */
+hr {
+    border: none;
+    border-top: 4px dotted #acc6b1;
+    height: 0;                   
+}
